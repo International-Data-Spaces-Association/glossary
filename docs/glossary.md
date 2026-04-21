@@ -1,15 +1,16 @@
 # IDSA Glossary
 
 This draft document is created to ensure consistent terminology across IDSA's documents.
-The definitions are aligned with the ISO DIS 20151 (to be published at the time of writing this document) and the Dataspace Protocol (2025-1 release) where possible. 
+The definitions are aligned with the ISO DIS 20151 (to be published at the time of writing this document) and the Dataspace Protocol (2025-1 release) where possible.
 Additional notes are provided where different terms are used for the same concept across the two sources.
 Please note this is just an initial draft to provide a starting point. The structure and approach could be updated in the next steps.
 
 ## A
+
 ### Agreement
 
 A concrete [Policy](#policy) associated with a specific [Dataset](#dataset) that has been agreed between the [Provider](#provider) and [Consumer](#consumer). It is a result of a [Contract Negotiation](#contract-negotiation) defining the [Policy](#policy) agreed to for a [Dataset](#dataset).
-Please also see [data sharing contract] 
+Please also see [data sharing contract]
 
 (Source: ISO/IEC DIS 20151)
 
@@ -31,7 +32,7 @@ A [Participant Agent](#participant-agent) that makes a [Catalog](#catalog) avail
 
 ### Connector (Data Service)
 
-A [Participant Agent](#participant-agent) that performs [Contract Negotiation](#contract-negotiation) and [Transfer Process](#transfer-process) operations with other [Connectors](#data-service), by implementing [Dataspace Protocols](#dataspace-protocol). It produces [Agreements](#agreement) and manages [Dataset](#dataset) sharing.
+A [Participant Agent](#participant-agent) that performs [Contract Negotiation](#contract-negotiation) and [Transfer Process](#transfer-process) operations with other Connectors, by implementing [Dataspace Protocols](#dataspace-protocol). It produces [Agreements](#agreement) and manages [Dataset](#dataset) sharing.
 
 ### Consumer
 
@@ -52,21 +53,24 @@ A set of allowable [Message Type](#message-type) sequences defined as a state ma
 Data or a technical service that can be shared by a [Participant](#participant).
 
 ### dataspace
-_data space_
+
+#### _data space_
 
 [governance framework](#governance-framework) and supporting services to build [trustworthiness](#trustworthiness) and enable [data sharing](#data-sharing) through an agreed set of [Policies](#policy), semantic models, protocols and processes
 
 [SOURCE: ISO/IEC DIS 20151]
 
 ### dataspace governance authority role
-_DSGA role_
+
+#### _DSGA role_
 
 set of activities provided by one or more parties that establishes, governs, manages and enforces the technical policies and business rules of a [dataspace](#dataspace)
 
 [SOURCE: ISO/IEC 20151 to be published]
 
 ### dataspace participant
-_participant_
+
+#### _participant_
 
 party that is acting in a [dataspace participant role](#dataspace-participant-role)
 
@@ -76,7 +80,8 @@ Note 1 to entry: By being accepted to be a participant in the dataspace, the par
 Please also see [Participant](#participant) definition sourced from DSP.
 
 ### dataspace participant role
-_participant role_
+
+#### _participant role_
 
 set of activities within a [dataspace](#dataspace) for the purpose of [data sharing](#data-sharing) or related activities
 Note 1 to entry: Related activities can include auditing or observing roles that do not include data sharing or governance activities.
@@ -89,6 +94,7 @@ human and machine-readable set of rights and obligations regarding access and us
 
 ### Dataspace Protocol
 
+A set of Messages and Message sequences that enables the interaction between [Participant Agents](#participant-agent) in a [dataspace](#dataspace). This may require additional concepts, which are not in the scope of the specification itself.
 A set of Messages and Message sequences that enables the interaction between [Participant Agents](#participant-agent) in a [Dataspace](#dataspace). This may require additional concepts, which are not in the scope of the specification itself.
 
 ### Data Transfer Protocol
@@ -109,14 +115,14 @@ needed in a data sharing agreement.
 
 ### data sharing contract
 
-formal and legally binding agreement between [dataspace participants](#dataspace-participants) containing policies, terms and
+formal and legally binding agreement between [dataspace participants](#dataspace-participant) containing policies, terms and
 conditions for [data sharing](#data-sharing)
 Note 1 to entry: Data sharing contracts usually contain information about access to data, including its metadata, and
 data use.
 Note 2 to entry: A data sharing contract is usually much more specific than a data sharing agreement which is often broader and often at an organizational level.
 [SOURCE: ISO/IEC 20151 to be published]
 
-Please also see [Agreement](#Agreement) for a related definition sourced from DSP.
+Please also see [Agreement](#agreement) for a related definition sourced from DSP.
 
 ### data use
 
@@ -159,7 +165,7 @@ Please also see [dataspace participant](#dataspace-participant) definition sourc
 
 ### Participant Agent
 
-A technology system that performs operations and interactions in a [Dataspace](#dataspace) on behalf of a [Participant](#participant), such as publishing a [Catalog](#catalog) or engaging in a [Transfer Process](#transfer-process). It is a logical construct and does not necessarily correspond to a single runtime process. While most interactions take place between so-called [Connectors](#data-service), some interactions with other systems are required.
+A technology system that performs operations and interactions in a [Dataspace](#dataspace) on behalf of a [Participant](#participant), such as publishing a [Catalog](#catalog) or engaging in a [Transfer Process](#transfer-process). It is a logical construct and does not necessarily correspond to a single runtime process. While most interactions take place between so-called Connectors, some interactions with other systems are required.
 
 ### Policy
 
