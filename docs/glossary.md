@@ -1,6 +1,7 @@
 # IDSA Glossary
 
-This draft document is created to ensure consistent terminology across IDSA's documents.
+This document is created to ensure consistent terminology across IDSA's documents.
+
 The definitions are aligned with the [ISO/IEC DIS 20151](https://www.iso.org/standard/86589.html) (to be published at the time of writing this document) and the [Dataspace Protocol (2025-1 release)](https://eclipse-dataspace-protocol-base.github.io/DataspaceProtocol/2025-1-err1/) where possible.
 
 Additional notes are provided where different terms are used for the same concept across the two sources.
@@ -186,7 +187,7 @@ A concrete [Policy](#policy) associated with a specific [Dataset](#dataset).
 
 ### Participant
 
-A member of one or more [Dataspaces](#dataspace) that provides and/or consumes [Datasets](#dataset). It registers [Participant Agents](#participant-agent) that perform tasks on its behalf.
+A member of one or more [Dataspace](#dataspace)s that provides and/or consumes [Datasets](#dataset). It registers [Participant Agents](#participant-agent) that perform tasks on its behalf.
 
 (Source: Dataspace Protocol)
 
