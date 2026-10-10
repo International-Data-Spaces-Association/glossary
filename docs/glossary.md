@@ -148,7 +148,7 @@ Please also see [Agreement](#agreement) for a related definition sourced from Da
 ### data use
 
 Handling or dealing with data for a specific purpose
-(Source: ISO/IEC 5207:2024[5](en), 3.30, modified – Note 1 to entry removed)
+(Source: ISO/IEC 5207:2024, 3.30, modified – Note 1 to entry removed)
 
 (Source: ISO/IEC 20151)
 
